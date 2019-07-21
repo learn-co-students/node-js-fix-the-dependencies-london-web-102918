@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"after each\" hook",
+      "fullTitle": "lib \"after each\" hook",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'passes' of undefined\n    at withReplacedStdout (node_modules/mocha-multi/mocha-multi.js:197:14)\n    at withReplacedStdout (node_modules/mocha-multi/mocha-multi.js:146:12)\n    at Runner.runner.on.eventArgs (node_modules/mocha-multi/mocha-multi.js:196:7)",
+        "message": "Cannot read property 'passes' of undefined",
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
